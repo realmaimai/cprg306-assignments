@@ -1,5 +1,11 @@
+import StudentInfo from "./student-info";
+
 export default function MyPage() {
+
     return (
-        <h1>hello world</h1>
+        <main className="h-screen">
+            <h1>Shopping list</h1>
+            <StudentInfo/>
+        </main>
     );
 }
